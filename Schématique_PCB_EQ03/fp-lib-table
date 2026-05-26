@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TCH098")(type "KiCad")(uri "${KIPRJMOD}/KiCAD Lib TCH098 v2025/TCH098.pretty")(options "")(descr ""))
+)

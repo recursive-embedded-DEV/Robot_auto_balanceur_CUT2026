@@ -1,0 +1,181 @@
+(footprint "Battery connector (JST RCY)"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.81 0)
+		(layer "F.SilkS")
+		(uuid "656155ff-2be2-4e98-b44d-48874aa9f922")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JST RCY"
+		(at 0 -13.97 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dcd3a3f-1b8c-4506-b566-5844814c5f4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6b9cba7-b519-45ea-9473-74e7015d8b13")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdab7a8d-53cf-460b-9b6b-284c058b02d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55055e1c-7f8a-4a4e-a0bb-15b0e417ae94")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.81 -12.7)
+		(end -3.81 2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "849cbe7a-633b-450e-a782-9cca59d703a3")
+	)
+	(fp_line
+		(start -3.81 2.54)
+		(end -3.048 2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f50b0940-4b9b-4ac2-93f3-5b909da77118")
+	)
+	(fp_line
+		(start -0.762 2.54)
+		(end 0.762 2.54)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5ae3a4d9-3f8d-4d51-974e-89bb47584b0c")
+	)
+	(fp_line
+		(start 3.81 -12.7)
+		(end -3.81 -12.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "907a3639-9345-45dc-9354-bb82df255cef")
+	)
+	(fp_line
+		(start 3.81 2.54)
+		(end 3.048 2.54)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5830ef67-f517-4e31-a8b6-770ed6d852b7")
+	)
+	(fp_line
+		(start 3.81 2.54)
+		(end 3.81 -12.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4a96ae2-391d-4272-beb9-ac613f32b979")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.905 -10.16)
+		(size 2.5 2.5)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "148848ae-bc47-44d3-acf2-73c823299798")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.905 -5.08)
+		(size 2.5 2.5)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "69d4efa2-0748-4654-8f9c-f87932b1683d")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.905 -10.16)
+		(size 2.5 2.5)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "84ee095b-6f58-4701-959d-c778f4098149")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.905 -5.08)
+		(size 2.5 2.5)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "57bcd7f9-9dbc-458a-8cea-219e8e6dd084")
+	)
+	(pad "1" thru_hole oval
+		(at -1.905 0)
+		(size 3 5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "33208204-54fc-4c52-b853-557c62ae2345")
+	)
+	(pad "2" thru_hole oval
+		(at 1.905 0)
+		(size 3 5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bd59bc77-a324-4e31-9c02-79f08b38a51b")
+	)
+	(model "${TCH098_LIB_3D_DIR}/Free hanging JST (RCY).step"
+		(offset
+			(xyz 1.905 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

@@ -1,0 +1,159 @@
+(footprint "Slide switch SP3T (OS103012MU2QP1)"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 4 0)
+		(layer "F.SilkS")
+		(uuid "daceb705-6d99-45e0-8e16-7ac438fef206")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OS103012MU2QP1"
+		(at 0 -4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24548731-a4c0-4712-8b97-97e4ae68a0cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0657c7f-03b5-4b28-9cde-e6b052456b21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ckswitches.com/media/1428/os.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "233784e2-f1a0-4596-a3ea-08db6bb79d13")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" " SWITCH SLIDE SP3T 200MA 30V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "820d3a63-bb32-44cb-ae1c-401d84ffd74b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4 -3)
+		(end 11.5 -3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e671b297-6334-454c-abfc-610a92806127")
+	)
+	(fp_line
+		(start -4 0)
+		(end -4 -3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1b91a93-883c-44f2-a8ff-fbf70c6eae84")
+	)
+	(fp_line
+		(start -4 3)
+		(end -4 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2dec4ac8-b3d8-4590-91f7-3f9aa42901a7")
+	)
+	(fp_line
+		(start 11.5 -3)
+		(end 11.5 3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe43a6ae-f98c-41a1-96d9-8abf9988fc4b")
+	)
+	(fp_line
+		(start 11.5 3)
+		(end -4 3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0039085-f598-4da4-b14d-b8d31868f720")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "59dfeb18-340a-4ad9-8228-f9f14e3e274b")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "35b78d4b-0fc3-429c-9fcd-0f2366ac3d12")
+	)
+	(pad "3" thru_hole circle
+		(at 7.5 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7dedda5-3a83-492d-948a-e2ad6a216d9f")
+	)
+	(pad "4" thru_hole circle
+		(at 10 0)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fbe5f274-6fe8-442d-9423-6de3909ee4fa")
+	)
+	(model "${TCH098_LIB_3D_DIR}/Slide switch SP3T (OS103012MU2QP1).stp"
+		(offset
+			(xyz 4 0 4.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "clearance-to-0.5-cutout"
+	(constraint edge_clearance (min 0.5mm))
+	(condition "A.Layer == 'Edge.Cuts'")
+	(severity error))
